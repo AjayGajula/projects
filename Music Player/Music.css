@@ -1,0 +1,394 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#whole-div{
+    display: flex;
+}
+aside{
+    width: 18%;
+    border-right:1px solid rgb(204, 204, 204,0.2);
+    box-sizing: border-box;
+    padding: 10px 48px;
+    padding-bottom: 0;
+}
+
+.main-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 12px 16px 0  rgb(0,0,0,0.13);
+}
+
+#first-div{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#first-div  h3{
+    font-size: 14px;
+    margin: 0;
+    margin-top:10px;
+}
+
+#first-div p{
+    font-size: 12px;
+    margin: 0;
+    color: #a7afc9;
+}
+
+.list-para{
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#music-h3{
+    color: #a7afc9;
+    font-size: 14px;
+    margin-top: 30px;
+    letter-spacing: 0.5px;
+}
+
+i{
+    color: #a7afc9;
+    margin-right: 20px;
+}
+
+#second-div{
+    margin-top: 30%;
+}
+
+
+.iphone-img{
+    width: 34px;
+    height: 34px;
+    border-radius: 4px;
+}
+
+#iphone-name{
+    font-size: 11px;
+    margin: 0;
+}
+
+#iphone-ram{
+    font-size: 9px;
+    margin: 0;
+}
+
+div > i{
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+#third-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e8ecf7;
+    width: 150px;
+    height:52px;
+    border-radius: 8px;
+    transform: translateY(140px);
+}
+
+
+/*--------------------------------------------------------section 2-----------------------------------------------------*/
+main{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 28px;
+    background-color: #f9fafe;
+}
+
+
+#search{
+    position: relative;
+    width: 350px;
+}
+
+#search-box{
+    width: 100%;
+    padding: 8px  44px;
+    padding-right: 10px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 24px;
+    box-sizing: border-box;
+}
+
+#search-icon{
+    position:absolute;
+    color: rgb(12, 11, 11, 0.6);
+    left: 10px;
+    bottom: 8px;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+#cog-icon{
+    margin: 0 20px;
+}
+
+.btn{
+    background-color: #0084ff;
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    font-size: 11px;
+    border-radius: 24px;
+    background-image: linear-gradient(to right, #ff1f33, #ff6773);
+    cursor: pointer;
+    outline: none;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+}
+
+#topbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sub-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sub-header h3{
+    letter-spacing: 0.7px;
+    font-size: 17px;
+}
+#angle-icon{
+    margin: 0 10px;
+}
+
+
+#card-blog{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-container{
+    width: 14%;
+    cursor: pointer;
+}
+.thumbnail{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0  rgb(0,0,0,0.13);
+    transition: all 0.3s;
+}
+
+.card-container:hover .thumbnail{
+    transform: scale(1.1,1.1);
+}
+
+
+h5{
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+    margin-top: 9px;
+}
+
+.song-artist{
+    font-size:10px;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+    color:#ccd1e1;
+}
+
+#sub-main-div{
+    display: flex;
+    box-sizing: border-box;
+}
+
+#sub-aside{
+    width: 60%;
+}
+
+#box{
+    margin-top: 3%;
+    box-sizing: border-box;
+}
+#heading h2{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading p{
+    font-size: 12px;
+    margin: 0;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    color:#a7afc9;
+}
+
+.player{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 5px 0;
+    padding-right: 25px;
+    border-radius: 6px;
+    margin: 12px 0;
+
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player-artist{
+    font-size: 11px;
+    font-weight: 700;
+    margin: 0 20px;
+    letter-spacing: 0.5px;
+}
+.player-img{
+    width: 28px;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.menu-right-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right-list{
+    color:#a7afc9;
+    font-size: 12px;
+    margin-right: 100px;
+}
+
+#play-icon1{
+    font-size: 8px;
+}
+#play-icon2{
+    font-size: 8px;
+}
+#play-icon3{
+    font-size: 8px;
+}
+#play-icon4{
+    font-size: 8px;
+}
+
+#heart-icon1{
+    color: #ff384d;
+}
+#heart-icon2{
+    color: #ff384d;
+}
+
+
+#sub-right-div{
+    width: 35%;
+    margin-left: 20px;
+}
+
+#right-heading h2{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#right-heading p{
+    font-size: 12px;
+    margin: 0;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    color: #a7afc9;
+}
+
+#background-card{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fcfcfc;
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+
+}
+
+#inside-card{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0  rgb(0,0,0,0.04);
+    padding: 0 30px;
+    padding-bottom: 10px;
+}
+.cd{
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 10px;
+    box-shadow: 0 12px 16px 0  rgb(0,0,0,0.13);
+}
+
+#inside-card h3{
+    font-size: 11px;
+    margin: 0;
+    margin-top:10px;
+}
+
+#inside-card p{
+    font-size: 10px;
+    margin: 0;
+    color: #a7afc9;
+}
+
+#line-separator{
+    width: 100%;
+    display: inline-block;
+    height: 2px;
+    background-color: #bac2db;
+    margin-top: 8px;
+}
+
+#timing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.song-time{
+    color: a7afc9;
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+#audio-controls{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer{
+    background-color: #fcfcfc;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px 0px;
+}
+

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="./Music.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&family=Noto+Serif+JP:wght@700&family=Noto+Serif:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/49d8df9a69.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="whole-div">
+        <aside>
+            <div id="first-div">
+                <img class="main-img" src="https://theadultman.com/wp-content/uploads/2018/07/man-with-square-face-high-wearing-aviator-sunglasses-and-with-a-medium-hairstyle.jpg" alt="img"/>
+                <h3>Farzan Faruk</h3>
+                <p>Luova.studio7@gmail.com</p>
+            </div>
+
+            <div id="second-div">
+                <p class="list-para"><span><i class="fas fa-home"></i></span>Home</p>
+                <p class="list-para"><span><i class="fab fa-chrome"></i></span>Browse</p>
+                <p class="list-para"><span><i class="far fa-file-image"></i></span>Album</p>
+                <p class="list-para"><span><i class="fas fa-user-alt"></i></span>Artists</p>
+                <p class="list-para"><span><i class="fas fa-video"></i></span>Videos</p>
+                <h3 id="music-h3">MY MUSIC</h3>
+                <p class="list-para"><span><i class="fas fa-history"></i></span>Recently Played</p>
+                <p class="list-para"><span><i class="far fa-file"></i></i></span>Local Files</p>
+            </div>
+
+            <div id="third-div">
+                <div>
+                    <img class="iphone-img" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-iphoneX-silver_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1548459946146" alt="iphone-img"/>
+                </div>
+                <div>
+                    <h3 id="iphone-name">Iphone X</h3>
+                    <p id="iphone-ram">128 GB</p>
+                </div>
+                <div>
+                    <i class="fas fa-caret-up"></i>
+                </div>
+            </div>
+        </aside>
+
+<!------------------------------------------------------------------section 2------------------------------------------------------------>
+        <main>
+            <header>
+                <div id="topbar">
+                    <div id="search">
+                        <input id="search-box" type="search" name="search" placeholder="Search for song,artists etc..."/>
+                        <i id="search-icon" class="fa  fa-search"></i>
+                    </div>
+
+                    <div id="right">
+                        <i class="far fa-bell"></i>
+                        <i id="cog-icon" class="fas fa-cog"></i>
+                        <button class="btn">Upgrade Plan</button>
+                    </div>
+                </div>
+            </header>
+
+            <div id="sub-header">
+                <h3>Billboard Topchart</h3>
+                <div>
+                    <i class="fas fa-angle-left"></i>
+                    <i id="angle-icon" class="fas fa-angle-right"></i>
+                </div>
+            </div>
+
+            <div id="card-blog">
+                <div class="card-container">
+                    <img class="thumbnail" src="https://imgix.bustle.com/inverse/30/73/24/3c/1222/490c/8172/20fc7e131358/chance-the-rapper-coloring-book-2-chainz-lil-wayne-download-mixtape.jpeg" alt="img"/>
+                    <h5>Coloring Book</h5>
+                    <p class="song-artist">Pop King</p>
+                </div>
+                <div class="card-container">
+                    <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/en/3/38/Troye_Sivan_-_Blue_Neighbourhood.png" alt="img"/>
+                    <h5>Blue Neighbourhood</h5>
+                    <p class="song-artist">Troye Sivan</p>
+                </div>
+                <div class="card-container">
+                    <img class="thumbnail" src="https://assets.tonica.la/__export/1537306689555/sites/debate/img/2018/09/18/maxresdefault_x1x.jpg_1359985867.jpg" alt="img"/>
+                    <h5>Starboy</h5>
+                    <p class="song-artist">The Weekend</p>
+                </div>
+                <div class="card-container">
+                    <img class="thumbnail" src="https://c.saavncdn.com/911/Mirage-Extended-Versions-English-2010-500x500.jpg" alt="img"/>
+                    <h5>Mirage</h5>
+                    <p class="song-artist">Else Twin</p>
+                </div>
+                <div class="card-container">
+                    <img class="thumbnail" src="https://images.hungama.com/c/1/082/bf3/43222012/43222012_300x300.jpg" alt="img"/>
+                    <h5>Soolking</h5>
+                    <p class="song-artist">Demon</p>
+                </div>
+                <div class="card-container">
+                    <img class="thumbnail" src="https://c.saavncdn.com/665/Smooth-Soul-Black-Lounge-Chillout-Classics-English-2016-500x500.jpg" alt="img"/>
+                    <h5>Smooth Soul</h5>
+                    <p class="song-artist">Black Lounge</p>
+                </div>
+            </div>
+
+            <div id="sub-main-div">
+                <div id="sub-aside">
+                    <div id="heading">
+                        <h2>Most Popular</h2>
+                        <p>92 Songs</p>
+                    </div>
+                    <div id="box">
+                        <div class="player">
+                            <div class="menu-list">
+                                <p class="player-artist">01</p>
+                                <img class="player-img" src="https://c.saavncdn.com/665/Smooth-Soul-Black-Lounge-Chillout-Classics-English-2016-500x500.jpg" alt="img-small"/>
+                                <i id="play-icon1"  class="fas fa-play"></i>
+                                <p class="player-artist">Black Lounge</p>
+                            </div>
+
+                            <div class="menu-right-list">
+                                <p class="right-list">NF Real music</p>
+                                <p class="right-list">3:22</p>
+                                <i id="heart-icon1" class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="player">
+                            <div class="menu-list">
+                                <p class="player-artist">02</p>
+                                <img class="player-img" src="https://images.hungama.com/c/1/082/bf3/43222012/43222012_300x300.jpg" alt="img-small"/>
+                                <i  id="play-icon2"class="fas  fa-play"></i>
+                                <p class="player-artist">Demon</p>
+                            </div>
+
+                            <div class="menu-right-list">
+                                <p class="right-list">The Weekend</p>
+                                <p class="right-list">4:23</p>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="player">
+                            <div class="menu-list">
+                                <p class="player-artist">03</p>
+                                <img class="player-img" src="https://c.saavncdn.com/911/Mirage-Extended-Versions-English-2010-500x500.jpg" alt="img-small"/>
+                                <i  id="play-icon3"class="fas fa-play"></i>
+                                <p class="player-artist">Else Twin</p>
+                            </div>
+
+                            <div class="menu-right-list">
+                                <p class="right-list">Lucidious</p>
+                                <p class="right-list">5:08</p>
+                                <i id="heart-icon2"  class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="player">
+                            <div class="menu-list">
+                                <p class="player-artist">04</p>
+                                <img class="player-img" src="https://imgix.bustle.com/inverse/30/73/24/3c/1222/490c/8172/20fc7e131358/chance-the-rapper-coloring-book-2-chainz-lil-wayne-download-mixtape.jpeg" alt="img-small"/>
+                                <i  id="play-icon4"class="fas fa-play"></i>
+                                <p class="player-artist">Pop King</p>
+                            </div>
+
+                            <div class="menu-right-list">
+                                <p class="right-list">NF Real music</p>
+                                <p class="right-list">3:50</p>
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+                <div id="sub-right-div">
+                    <div id="right-heading">
+                        <h2>Now Playing</h2>
+                        <p>55 Items on the list</p>
+                    </div>
+
+                    <div id="background-card">
+                        <div id="inside-card">
+                            <img class="cd" src="https://imgix.bustle.com/inverse/30/73/24/3c/1222/490c/8172/20fc7e131358/chance-the-rapper-coloring-book-2-chainz-lil-wayne-download-mixtape.jpeg" alt="cd-img"/>
+                            <h3>Chance The Rapper</h3>
+                            <p>Pop King</p>
+                            <div id="line-separator"></div>
+                            <div id="timing">
+                                <p class="song-time">0:00</p>
+                                <p class="song-time">4:23</p>
+                            </div>
+                        </div>
+                        <div id="audio-controls">
+                            <i class="fas fa-random"></i>
+                            <i class="fas fa-backward"></i>
+                            <i class="fas fa-pause"></i>
+                            <i class="fas fa-forward"></i>
+                            <i class="fas fa-redo"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+<footer>© Copyright 2018 Mobirise - All Rights Reserved</footer>
+</html>

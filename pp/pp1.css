@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-color: lightblue;
+}
+header{
+    Padding:16px 78px;
+    Background-color: #fff;
+    box-shadow: 0 2px 8px #aaa;
+}
+#logo{
+    Width: 130px;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0084ff;
+    text-decoration:none;
+    display: inline;
+}
+#drop-down{
+    display: inline;
+    padding-left: 80px;
+}
+#stories
+{
+    margin: 0;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+}
+#menu{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 15%;
+    color: black;
+}
+#h2{
+    padding-left: 10%;
+}
+#filter{
+    font-size:18px;
+    font-weight: 600;
+    margin-left: 8px;
+    padding-left: 10%;
+}
+#categories{
+    width: 1000px;
+    padding-left: 10%;
+}
+#categories p{
+    Padding: 6px 14px;
+    width: auto;
+    color: #0084ff;
+    Border-radius: 15px;
+    Border: 1px solid #0084ff;
+    Margin: 5px;
+    Cursor: pointer;
+    display: inline;
+}
+
+#main-div{
+    padding: 2% 9%;
+    
+}
+.card{
+    width: 350px;
+    height: auto;
+    background-color: white;
+    display: inline-block;
+    border-top-left-radius: 5px;
+    Border-top-right-radius: 5px;
+    margin: 8px;
+    box-shadow: 1px 4px 6px #aaa;
+}
+
+.img-items{
+    Width: 100%;
+    height: 185px;
+    border-top-left-radius: 5px;
+    Border-top-right-radius: 5px;
+}
+h2{
+    padding: 10px 24px;
+}
+.para{
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    Line-height: 1.43;
+    color: rgba(0,0,0,.6);
+    Margin: 4px 0;
+    font-family: 'Raleway', sans-serif;
+}
+.sub-head{
+    font-size: 18px;
+    color: black;
+    padding: 10px 24px;
+}
+
+#footer{
+    background-color: #172146;
+    Padding: 50px 16%;
+}

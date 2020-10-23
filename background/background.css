@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+
+}
+
+nav{
+    text-align: center;
+   
+}
+
+nav > span{
+    color: white;
+    margin-top: 0;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    padding:32px;
+    box-sizing: border-box;
+    height: 650px;
+    background-color: lightsteelblue;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRHX-ad4FIZm5menakf6zdIo1_KqKc3OqqPwg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > h1{
+    color: white;
+    font-size: 76px;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+padding-top: 10%;
+padding-left: 5%;
+letter-spacing: 5px;
+}
+
+header > p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+padding-left: 5%;
+letter-spacing: 3px;
+position: relative;
+top: -30px;
+}

@@ -1,0 +1,74 @@
+
+
+img{
+width: 100%;
+height: 60%;
+}
+
+
+h1{
+text-align: center;
+background-color:lightgoldenrodyellow;
+}
+
+
+.main{
+background-image: url(https://wallup.net/wp-content/uploads/2019/09/653132-mountains-landscape-nature-mountain-river-lake.jpg);
+width: 100%;
+height: 300px;
+}
+
+
+.main h {
+text-align: center;
+margin-left: 500px;
+margin-top:50px;
+font-size:50px;
+color: blanchedalmond;
+}
+
+
+.mainp {
+font-size:40px;
+margin-left: 200px;
+color:white;
+}
+
+.menu-item{
+display:flex;
+justify-content: space-between;
+text-transform: uppercase;
+}
+ 
+.cardimg{
+width:400px;
+height: 400px;
+padding:20px;
+border-radius: 10%;
+}
+
+.cardimg:hover{
+transform: scale(1.1);
+}
+ 
+.cardh3{
+margin-left: 120px;
+}
+ 
+.cardp{
+margin-left: 120px;
+}
+
+
+#blog{
+display:flex;
+}
+
+.footer{
+background-color: #232323;
+color: white;
+font-size: 14px;
+letter-spacing: 0.5px;
+text-align: center;
+padding: 30px0px;
+}

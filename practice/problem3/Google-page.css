@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+
+header{
+    
+    border-bottom: 0.5px solid #ccc;
+}
+
+.menu-icons{
+    width: 18px;
+    margin-right: 6px;
+}
+
+#active-text{
+    position: relative;
+    bottom: -10px;
+    color: #1A73E8;
+    border-bottom:4px solid blue ;
+  
+}
+
+#text{
+    position: relative;
+    top: -10px;
+}
+.menu-items{
+    display: inline;
+    position: relative;
+    top: -4px;
+    cursor: pointer;
+}
+
+#main-div{
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.inline-div{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#below-para{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#main-block{
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.sub-head{
+    color: #0000ff;
+    font-size: 22px ;
+    font-weight: bolder;
+    margin-bottom:0;
+}
+
+.link-type{
+    text-decoration: none;
+    color:lightseagreen;
+    margin-top: 0;
+   
+}
+.desc{
+  margin-top: 0;
+}
+
+.tag-items{
+    color: blue;
+    font-weight: 500;
+    position: relative;
+    margin-top: -12px;
+    cursor: pointer;
+}
+
+#box{
+    width: 550px;
+    border: 1px solid #aaa;
+    display: inline-block;
+    
+    margin-left: 80px;
+    border-radius: 8px;
+    margin-top: 0;
+    box-shadow: 1px 1px 2px #aaa;
+}
+ .img{
+    width: 200px;
+}
+
+#border{
+    border-bottom: 1px solid #aaa;
+    padding:0 20px;  
+}
+
+.aside-para{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.4;
+    word-spacing: 1;
+    padding: 15px;
+}
+.side-side{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 15px;
+}
+
+.items{
+    width: 88px;
+    padding:20px 0;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.end-img{
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.end-head{
+    font-size: 20px;
+    color: blue;
+    margin-top: 0;
+}
+
+
+

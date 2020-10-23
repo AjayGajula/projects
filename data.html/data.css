@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    height: 720px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: lightsteelblue;
+    background-image: url('https://wallpaperplay.com/walls/full/1/0/3/91297.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    
+}
+
+nav {
+    text-align: center;
+    
+}
+
+.menu-items {
+    padding:14px;
+    color: white;
+    font-size: 18px;
+}
+
+h1  {
+    font-size: 56px;
+    padding-top: 180px;
+    padding-left: 48px;
+    color: white;
+}
+
+p {
+    padding-left: 50px;
+    font-size: 18px;
+    color: white;
+}

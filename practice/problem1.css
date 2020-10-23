@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: White;
+}
+#main-block{
+    margin-top: 40px;
+    height: 600px;
+    text-align: center;
+}
+.side-img{
+    width:30px;
+}
+
+#heading{
+    font-size: 3em;
+    display: inline;
+}
+#para{
+    font-size: 18px;
+    margin-top: 0;
+    font-style: italic;
+}
+h2{
+    font-size: 32px;
+    margin-bottom: 0;
+    
+}
+#sun{
+    width:200px;
+}
+
+#div{
+    margin-top: 50px;
+}
+
+#sub-heading{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.sub-heading{
+    font-size: 14px;
+
+}
+
+
+.sub-planets{
+    width: 60px;
+    margin: 10px;
+}
+
+.planets{
+    display: inline-block;
+    
+}

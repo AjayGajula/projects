@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: 'Raleway';
+    background-color: #f2f6ff;
+}
+
+#topbar{
+    background-color: white;
+    padding: 14px 70px;
+    padding-bottom: 5px;
+    box-shadow: 0px 2px 4px #ccc;
+}
+
+.logo{
+    font-size: 2.13em;
+    width: 130px;
+    letter-spacing: -.9px;
+    font-weight: 900;
+    color: #0084ff;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0;
+}
+
+.inline-ele{
+    display: inline;
+}
+
+#drop{
+    position: relative;
+    top: 2px;
+    left: 4px;
+}
+#explore{
+    margin-left: 100px;
+    letter-spacing: .8px;
+    font-weight: 500;
+}
+
+.sub-text{
+    margin-top: 0;
+    font-size: 1em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#main-section{
+width: 992px;
+margin: 2% auto;
+}
+
+#posts{
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+
+#trending-head{
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -.9px;
+}
+
+#filter-cat{
+    font-size: .85em;
+    font-weight: 600;
+    margin-left: .5em;
+}
+
+#filter-logo{
+    color: #0084ff;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btn-cat{
+    color: #0084ff;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+    padding: 6px 14px;
+    width: auto;
+    font-size: .80em;
+    display: inline-block;
+}
+
+.active-btn{
+    background-color: #0084ff;
+    color: white;
+}
+
+.blog-card{
+    width: calc(33% - 18px);
+    background-color: white;
+    border: 1px solid rgba(0,168,255,.3);
+    border-radius: 5px; 
+    display: inline-block;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1); 
+    margin: 8px;   
+    vertical-align: top;
+    height: 430px;
+}
+
+.blog-image{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.blog-heading{
+    font-size: 1.25em;
+    margin-top:0;
+   font-weight: 600; 
+    
+}
+
+.second-div{
+    padding: .7em 1.5em;
+    margin-top: 0;
+}
+
+.meta-data{
+    color: #0096ff;
+    font-weight: 500px;
+    font-size: .9em;
+    margin-top: 0;
+}
+
+.date{
+    font-weight: 300px;
+    font-size: 14px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+.desc{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 1.43;
+    color: rgb(0, 0, 0,0.7);
+    word-spacing: 1.4;
+}
+
+#footer{
+    background-color: #172146;
+    Padding: 50px 16%;
+
+}
